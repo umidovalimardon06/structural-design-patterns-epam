@@ -4,7 +4,7 @@ public class CarPriceCalculator implements PriceCalculator {
     private String model;
     public static int averageCarPrice = 6_000;
 
-    public CarPriceCalculator(String model,int age) {
+    public CarPriceCalculator(String model, int age) {
         this.model = model;
         this.age = age;
     }
@@ -22,7 +22,7 @@ public class CarPriceCalculator implements PriceCalculator {
 
     @Override
     public String calculatePrice() {
-        int price = Math.max(getRetailPrice() - (age*100),0);
-        return price + "USD" ;
+        int price = Math.max(getRetailPrice() - (age * 100), 0);
+        return price + "USD";
     }
 }

@@ -11,7 +11,7 @@ public class TruckPriceCalculator implements PriceCalculator {
 
     @Override
     public String calculatePrice() {
-        int price = Math.max(averagePrice - age*100 - mileage/100, 0);
+        int price = Math.max(averagePrice - age * 100 - mileage / 100, 0);
         return price + "USD";
     }
 

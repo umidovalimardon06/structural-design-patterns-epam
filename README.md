@@ -1,22 +1,47 @@
-# Adapter Problem Demonstration
+# Adapter Pattern Solution
 
-## Muammo
+## Yechim: Adapter Pattern
 
-Ushbu loyihada `UKCarPriceCalculator` klassini `printVehiclePrice()` metodiga uzatib bo'lmaydi.
+`UKCarPriceCalculator` ni `PriceCalculator` interfacega moslashtirish uchun Adapter klassidan foydalanamiz.
 
-## Kod
+### Adapter Klassi
 
 ```java
+import org.example.UKCarPriceCalculator;
+
+public class Adapter implements PriceCalculator {
+    private UKCarPriceCalculator ukCarPriceCalculator;
+
+    public Adapter(UKCarPriceCalculator ukCarPriceCalculator) {
+        this.ukCarPriceCalculator = ukCarPriceCalculator;
+    }
+
+    @Override
+    public String calculatePrice() {
+        return ukCarPriceCalculator.getPrice() + " : GDP";
+    }
+}
+```
+
+### Yangilangan Main Klassi
+
+```java
+import org.example.UKCarPriceCalculator;
+
 public class Main {
+
     public static void main(String[] args) {
         CarPriceCalculator carPriceCalculator = new CarPriceCalculator("FORD", 3);
-        printVehiclePrice(carPriceCalculator);  // ✓ Ishlaydi
+        printVehiclePrice(carPriceCalculator);
 
         TruckPriceCalculator truckPriceCalculator = new TruckPriceCalculator(10, 0);
-        printVehiclePrice(truckPriceCalculator);  // ✓ Ishlaydi
+        printVehiclePrice(truckPriceCalculator);
 
         UKCarPriceCalculator ukCarPriceCalculator = new UKCarPriceCalculator("UKF1", 1);
-        // printVehiclePrice(ukCarPriceCalculator);  // ✗ ISHLAMAYDI!
+        
+        // Adapter yordamida UKCarPriceCalculator ni PriceCalculator ga o'giramiz
+        Adapter adapter = new Adapter(ukCarPriceCalculator);
+        printVehiclePrice(adapter);  // ✓ Endi ishlaydi!
     }
 
     public static void printVehiclePrice(PriceCalculator calculator) {
@@ -26,13 +51,17 @@ public class Main {
 }
 ```
 
-## Nima bo'lmoqda?
+## Qanday ishlaydi?
 
-- `printVehiclePrice()` metodi faqat `PriceCalculator` tipidagi parametrni qabul qiladi
-- `CarPriceCalculator` va `TruckPriceCalculator` `PriceCalculator` dan meros olgan
-- `UKCarPriceCalculator` esa `PriceCalculator` dan meros olmagan yoki uni implement qilmagan
-- Shuning uchun `UKCarPriceCalculator` ni `printVehiclePrice()` ga uzatib bo'lmaydi
+1. `Adapter` klassi `PriceCalculator` interfaceini implement qiladi
+2. `Adapter` ichida `UKCarPriceCalculator` obyektini saqlaymiz
+3. `calculatePrice()` metodi `UKCarPriceCalculator` ning `getPrice()` metodini chaqiradi
+4. Natijani kerakli formatda qaytaradi
 
-## Xulosa
+Bu klassik **Adapter Design Pattern** misoli - mos kelmaydigan interfacelarni bir-biriga bog'laydi.
 
-Bu **Adapter Pattern** muammosi - `UKCarPriceCalculator` mavjud interfeys bilan mos kelmaydi.
+---
+
+## Muammoni ko'rish
+
+Muammoning tavsifi `main` branchda joylashgan.
