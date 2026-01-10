@@ -9,7 +9,7 @@ public class Main {
         TruckPriceCalculator truckPriceCalculator = new TruckPriceCalculator(10, 0);
         printVehiclePrice(truckPriceCalculator);
 
-        UKCarPriceCalculator ukCarPriceCalculator = new UKCarPriceCalculator("UKF1",1);
+        UKCarPriceCalculator ukCarPriceCalculator = new UKCarPriceCalculator("UKF1", 1);
 ///        printVehiclePrice(ukCarPriceCalculator);   this is the problem!
 
 
