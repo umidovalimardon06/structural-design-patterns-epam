@@ -61,7 +61,3 @@ public class Main {
 Bu klassik **Adapter Design Pattern** misoli - mos kelmaydigan interfacelarni bir-biriga bog'laydi.
 
 ---
-
-## Muammoni ko'rish
-
-Muammoning tavsifi `main` branchda joylashgan.
