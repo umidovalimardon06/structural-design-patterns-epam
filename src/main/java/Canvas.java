@@ -19,6 +19,7 @@ public class Canvas extends JPanel {
 
     public void paint(Graphics graphics) {
         circle1.draw(graphics);
+        circle2 = new ComponentWithRedBorder(circle2);
         circle2.draw(graphics);
         circle3.draw(graphics);
     }
