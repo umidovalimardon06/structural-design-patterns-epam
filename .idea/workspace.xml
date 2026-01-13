@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd8ef255-9aa1-4bd3-bab2-d38569a91dd4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/VacationFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VocationFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VocationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VocationClient.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="facade-implementation" />
+                    <option name="lastUsedInstant" value="1768279610" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="without-facade" />
+                    <option name="lastUsedInstant" value="1768279544" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="decorator-implementation" />
+                    <option name="lastUsedInstant" value="1768122397" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="without-decorator" />
+                    <option name="lastUsedInstant" value="1768121539" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="kattasi" />
+                    <option name="lastUsedInstant" value="1768121532" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="37hHUf2ZMpSCRRrSToKPOHGrapC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Canvas.executor": "Debug",
+    "Application.ExpensesClient.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.TeamClient.executor": "Run",
+    "Application.VocationClient.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/satos/IdeaProjects/Epam/Java-web-development/structural-design-patterns/structural-dp/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.22815087",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\satos\IdeaProjects\Epam\Java-web-development\structural-design-patterns\structural-dp\src\main\java" />
+      <recent name="C:\Users\satos\IdeaProjects\Epam\Java-web-development\structural-design-patterns\structural-dp\src\main\java\organiszation" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.VocationClient">
+    <configuration name="Canvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Canvas" />
+      <module name="structural-dp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpensesClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExpensesClient" />
+      <module name="structural-dp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="structural-dp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="organiszation.TeamClient" />
+      <module name="structural-dp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="organiszation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VocationClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VocationClient" />
+      <module name="structural-dp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VocationClient" />
+        <item itemvalue="Application.Canvas" />
+        <item itemvalue="Application.ExpensesClient" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TeamClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd8ef255-9aa1-4bd3-bab2-d38569a91dd4" name="Changes" comment="" />
+      <created>1767348400466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767348400466</updated>
+      <workItem from="1767348401669" duration="1877000" />
+      <workItem from="1768033737680" duration="3155000" />
+      <workItem from="1768039423383" duration="6683000" />
+      <workItem from="1768110380732" duration="1168000" />
+      <workItem from="1768113224236" duration="2641000" />
+      <workItem from="1768118497548" duration="3928000" />
+      <workItem from="1768274000993" duration="302000" />
+      <workItem from="1768275448826" duration="1860000" />
+      <workItem from="1768277841215" duration="1844000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
